@@ -235,7 +235,7 @@ st.write("")  # Espacio vacío
 # PASO 1
 # =====================================================
 
-st.markdown('<div class="card">', unsafe_allow_html=True)
+
 
 st.header("1️⃣ ¿Cuál es el objetivo?")
 
@@ -265,7 +265,7 @@ if objetivo:
 
         st.success(f"✅ Objetivo válido: {objetivo}")
 
-st.markdown('</div>', unsafe_allow_html=True)
+
 
 # =====================================================
 # CONTINUAR SOLO SI ES VALIDO
@@ -339,7 +339,7 @@ if valido:
             f"✅ {st.session_state.algoritmo_ordenamiento} completado"
         )
 
-    st.markdown('</div>', unsafe_allow_html=True)
+
 
     # =====================================================
     # BUSQUEDA
